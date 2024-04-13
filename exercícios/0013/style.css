@@ -1,0 +1,171 @@
+Código CSS para Landing Page Completa
+CSS
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Banner */
+.banner {
+  background-image: url("imagem-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.6em;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.botao {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: #0062cc;
+}
+
+/* Sobre */
+.sobre {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 1.4em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.sobre ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sobre li {
+  margin-bottom: 15px;
+}
+
+/* Benefícios */
+.beneficios {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+
+.beneficios ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.beneficios li {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.beneficios img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.beneficios h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.beneficios p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Depoimentos */
+.depoimentos {
+  padding: 50px 0;
+}
+
+.depoimentos h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.depoimentos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.depoimentos li {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.depoimentos p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.depoimentos strong {
+  font-weight: bold;
+}
+
+/* Chamada para Ação */
+.chamada-acao {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.chamada-acao h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.chamada-acao p {
+  font-size: 1.4em;
+  line-height;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Aboslutas
+               cm, mm, in, px, (pt, pc, pouco usada)
+
+               Recomendação, usar PX e EM    
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+
+            /*lighter normal bold bolder */
+            /* weight=peso, width=largura, height=altura*/
+        }
+        h1 {
+            /*shorthand font
+            -font-style-> font-weight -> font-size -> font-family
+               font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+             */
+            
+            font: italic bolder 3em Arial, Helvetica, Sans-serif;
+        }
+        h2{
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente officia dolore! Ex delectus esse tenetur repellat molestiae quis facere beatae. Delectus voluptate voluptatibus ipsum repudiandae nostrum officiis eaque ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit commodi saepe asperiores a mollitia ducimus dolor dolorum dicta repudiandae cumque iusto incidunt ex odit cum, at voluptatibus est laudantium! </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dolore quas maiores ipsam vero consequuntur, iste eaque, sequi perferendis laborum, voluptatem qui nam obcaecati quo consequatur placeat veniam. Modi, eius.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eius cum, corrupti tempore commodi quod in inventore fuga magnam alias iure, necessitatibus officia corporis a adipisci veniam numquam. Incidunt, totam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit est laborum exercitationem dignissimos deleniti maxime porro perferendis quas neque commodi quae necessitatibus cum sapiente officiis voluptate natus fugit, reiciendis quasi!</p>
+</body>
+</html>

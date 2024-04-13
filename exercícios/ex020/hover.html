@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: gray;
+            background-color:;
+            width: 300px;
+            text-align: left;
+        }
+
+        div:hover {
+            color: red;
+        }
+
+        img {
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            transform: scale(0.8);
+        }
+
+        img:hover {
+            animation: forwards;
+            transform:scale(1.4)
+        }
+    </style>
+</head>
+<body>
+     <h1>Exemplo de hover</h1>
+     <p>Passe o mouse sobre o texto abaixo</p>
+     <div>
+        <img src="55003.png" alt="icon menu">
+        <p>Resturante</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

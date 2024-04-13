@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body { 
+            background-color: rgb(215, 228, 227);
+            
+        }
+        mark { 
+            background-color:rgb(0, 255, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            color: black    ;
+        }
+        h2 { 
+            background-color: rgb(194, 134, 218);
+          font-variant-position: super;
+        }
+        h1 { 
+            background-color: rgb(156, 95, 197);
+            color: white;
+        }
+        li {
+            color: rgb(0, 0, 0);
+            
+        }
+        dt {
+            color: red;
+        }
+        dd { 
+            color: yellow;
+        }
+    </style>
+    <title>Listas</title>
+    
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2><em><ins>Listas Ordenadas</ins></em></h2>
+    <ol type="1"> <!-- Types: 1 A a I i -->
+        <li>acordar
+        <li><mark >Ligar para o João</mark> 
+        <li><del>Tomar café</del>
+        <li>Escovar os Dentes
+        <li>Ir para faculdade</li>
+        <li>Estudar <abbr title="HyperText Markup Language  ">HTML</abbr></li>
+        <li>Almoçar</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2><em><ins>Listas não-ordenadas</ins></em></h2>
+    <ul type="disc"> <!-- disc circle square  -->
+        <li>pao
+        <li>leite
+        <li>Tomate</li>
+        <li>alface</li>
+        <li>Manteiga</li>
+        <li><ins>Arroz</ins></li>
+        <li><ins>feijão</ins></li>
+        
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>php</li>
+            <li>python</li>
+            <li>Javascript</li>
+            <li>kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="disc">
+            <li>Mario bros</li>
+            <ul type="square">
+                <li>Mario bros 3</li>
+                <li>Mario: Lost levels</li>
+            </ul>
+            <li>Ninja gaiden</li>
+        </ul>
+        <li>snes</li>
+        <ul type="disc">
+            <li>mario</li>
+            <li>donkey kong</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="disc">
+            <li>final fantasy</li>
+            <li>castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
